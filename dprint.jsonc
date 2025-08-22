@@ -1,0 +1,8 @@
+{
+  "json": {
+    "trailingCommas": "always",
+    "jsonTrailingCommaFiles": ["**/*.jsont"],
+  },
+  "excludes": ["**/*-lock.json"],
+  "plugins": ["https://plugins.dprint.dev/json-0.20.0.wasm"],
+}

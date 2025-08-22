@@ -1,0 +1,21 @@
+{
+  "errorLens.excludeBySource": ["jsonc"],
+  "[typescript][typescriptreact]": {
+    "editor.tabSize": 2,
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "dprint.dprint",
+  },
+  "[css][typescript][typescriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno",
+  },
+  "files.associations": {
+    "*.jsont": "jsonc",
+  },
+  "json.schemas": [{
+    "fileMatch": ["*.jsonc", "*.jsont"],
+    "schema": {
+      "allowTrailingCommas": true,
+    },
+  }],
+}
