@@ -14,7 +14,11 @@ JSONT follows all the syntax rules of JSON and JSONC, with the addition of trail
 ```jsonc
 {
   // Trailing comma after the last item in an array is allowed
-  "array": ["item1", "item2", "item3",]
+  "array": [
+    "item1",
+    "item2",
+    "item3",
+  ]
 }
 ```
 
