@@ -122,8 +122,9 @@ footer:not(.code-block *) {
     /* background: linear-gradient(to right, #004d7a, #008793); */
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 .json-display {
-    font-size: 2em;
+    font-size: min(6vw, 2.5em);
 }
